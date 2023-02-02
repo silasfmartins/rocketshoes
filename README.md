@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="RocketShoes" height="80" title="RocketShoes" src="./assets/favicon.ico" />
+  <img alt="RocketShoes" height="80" title="RocketShoes" src="./favicon.ico" />
 </h1>
 
 <p align="center">
