@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>RocketShoes</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-desktop">
+      <img src="./assets/logo.svg" alt="Logo">
+      </div>
+      <ul id="nav-list-desktop">
+        <li>
+          <div id="categorias">
+            <span>HOMEM</span>
+            <span>MULHER</span>
+            <span>CRIANÇA</span>
+            <span>CUSTOMIZAR</span>
+          </div>
+        </li>
+        <li>
+          <div id="search">
+            <img src="./assets/icon-search.svg" alt="search">
+            <input placeholder="Pesquisar" type="text">
+          </div>
+        </li>
+      </ul>
+      <img src="./assets/icon-bag.svg" alt="bag">
+      <div id="switcher">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox">
+          <img width="20" src="./assets/moon-star.svg" alt="Moon - Lua">
+        </label>
+      </div>
+    </nav>
+    <nav class="nav-mobile">
+      <div id="menu-mobile">
+        <div 
+          class="mobile-menu"
+          aria-label="Abrir Menu - Open Menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="true"
+        >
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <img src="./assets/logo.svg" alt="Logo">
+        <img id="bag" src="./assets/icon-bag.svg" alt="bag">
+      </div>
+      <ul class="nav-list">
+        <li>
+          <div id="switcher">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox">
+              <img width="20" src="./assets/moon-star.svg" alt="Moon - Lua">
+            </label>
+          </div>
+        </li>
+        <li>
+          <div id="search">
+            <img src="./assets/icon-search.svg" alt="search">
+            <input placeholder="Pesquisar" type="text">
+          </div>
+        </li>
+        <li>
+          <div id="categorias">
+            <span>HOMEM</span>
+            <span>MULHER</span>
+            <span>CRIANÇA</span>
+            <span>CUSTOMIZAR</span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <aside>
+      <h1>Tênis Esportivo Para Corrida Top</h1>
+      <p>Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e musculoso.</p>
+      <span id="price">R$ 1.000,00</span>
+      <button>Comprar</button>
+    </aside>
+    <main>
+      <img id="img-enlarged" src="./assets/tenis-1-ampliado.png" alt="img-enlarged">
+      <div id="tennis">
+        <img class="img-rounded" src="./assets/tenis-1-galeria.png" alt="tennis-gallery-1">
+        <img class="img-rounded" id="selected-img" src="./assets/tenis-2-galeria.png" alt="tennis-gallery-2">
+        <img class="img-rounded" src="./assets/tenis-3-galeria.png" alt="tennis-gallery-3">
+      </div>
+    </main>
+  </div>
+  <footer>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8_6hjIAF5Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="networks">
+      <span class="network">FACEBOOK</span>
+      <span class="network">INSTAGRAM</span>
+      <span class="network">YOUTUBE</span>
+      <span class="network">TWITTER</span>
+    </div>
+    <div id="container-explore">
+      <span id="explore">EXPLORE MAIS</span>
+      <img src="./assets/icon-arrow.svg" alt="arrow-right">
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
