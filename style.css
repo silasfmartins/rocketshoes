@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.checkbox {
+#checkbox {
   opacity: 0;
   position: absolute;
   display: flex;
